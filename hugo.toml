@@ -1,0 +1,45 @@
+baseURL = 'https://easyatm.github.io/'
+languageCode = 'zh-cn'
+title = 'easyATM Blog'
+theme = 'hugo-theme-stack'
+
+#canonifyURLs = true
+#relativeURLs = true
+
+[params]
+    mainSections = ["post"]
+    
+    [params.sidebar]
+        avatar = "https://github.com/easyatm.png"
+        title = "easyATM"
+        subtitle = "生命在于折腾 生命不息 折腾不止"
+
+# 注意：下面的参数必须用等号 =，且缩进要整齐
+[[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+    # [menu.main.params]  <-- 删掉或注释掉这两行
+    #     icon = "home"
+
+[[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+    # [menu.main.params]  <-- 删掉或注释掉这两行
+    #     icon = "archive"
+
+[[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 3
+    # [menu.main.params]  <-- 删掉或注释掉这两行
+    #     icon = "search"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
