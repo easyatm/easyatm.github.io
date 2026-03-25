@@ -1,6 +1,6 @@
 baseURL = 'https://easyatm.github.io/'
 languageCode = 'zh-cn'
-title = 'easyATM Blog'
+title = 'easyatm'
 theme = 'hugo-theme-stack'
 
 [params]
@@ -8,16 +8,16 @@ theme = 'hugo-theme-stack'
     
     [params.sidebar]
         avatar = "https://github.com/easyatm.png"
-        title = "easyATM"
-        subtitle = "生命在于折腾 生命不息 折腾不止"
+        title = "easyatm"
+        subtitle = "生命不息 折腾不止"
 
-# 注意：下面的参数必须用等号 =，且缩进要整齐
+
 [[menu.main]]
     identifier = "home"
     name = "首页"
     url = "/"
     weight = 1
-    # [menu.main.params]  <-- 删掉或注释掉这两行
+    # [menu.main.params]
     #     icon = "home"
 
 [[menu.main]]
