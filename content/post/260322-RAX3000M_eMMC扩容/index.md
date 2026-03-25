@@ -8,7 +8,7 @@ draft: false
 ## 流程
 
 安装相关软件
-
+ 
     opkg install lsblk fdisk cfdisk
 
 浏览分区列表
