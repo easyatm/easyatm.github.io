@@ -8,7 +8,7 @@ hugo_stats.json
 Thumbs.db
 
 # 编辑器配置
-.vscode/
+#.vscode/
 .idea/
 
 # 如果你本地运行了 npm（Hexo 残留或某些 Hugo 插件）
