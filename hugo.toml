@@ -2,6 +2,7 @@ baseURL = 'https://easyatm.github.io/'
 languageCode = 'zh-cn'
 title = 'easyatm'
 theme = 'hugo-theme-stack'
+hasCJKLanguage = true  # 开启中日韩语言支持
 
 [params]
     mainSections = ["post"]
