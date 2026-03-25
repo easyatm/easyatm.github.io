@@ -4,8 +4,6 @@ date: 2026-03-24
 draft: false
 ---
 
-## windows在smb共享驱动器中使用git就卡死
-
 检测文件:
  
     C:\Users\Administrator\.gitconfig

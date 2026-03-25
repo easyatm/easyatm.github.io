@@ -4,15 +4,15 @@ date: 2026-03-19
 draft: false
 ---
 
-# 让终端画面旋转180度
+## 让终端画面旋转180度
 
 因为我显示器是倒过来安装的
 
     echo 2 | tee /sys/class/graphics/fbcon/rotate
 
-# 让PVE宿主机禁止加载驱动
+## 让PVE宿主机禁止加载驱动
 
-#自定义一个配置文件,写入需要禁止的驱动
+自定义一个配置文件,写入需要禁止的驱动
 
     nano /etc/modprobe.d/disable-list.conf
 

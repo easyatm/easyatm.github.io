@@ -4,7 +4,7 @@ date: 2026-03-19
 draft: false
 ---
 
-### 使用CPU播放
+## 使用CPU播放
 
     mpv --vo=drm --hwdec=vaapi --ao=alsa "rtsp://192.168.3.2:8554/onvif_8_3"
 

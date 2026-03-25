@@ -4,7 +4,6 @@ date: 2026-03-24
 draft: false
 ---
 
-## windows-BBR2造成vscode连不上远程ss
 
 查看状态:
 
