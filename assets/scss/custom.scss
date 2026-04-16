@@ -1,0 +1,9 @@
+/* 只针对文章正文内的图片显示放大镜 */
+.article-content img {
+    cursor: zoom-in;
+}
+
+/* 当图片已经被放大时，显示缩小手型 */
+.medium-zoom-image--opened {
+    cursor: zoom-out;
+}

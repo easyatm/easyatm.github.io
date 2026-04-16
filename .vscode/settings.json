@@ -3,9 +3,9 @@
     "public": true,
     "_markup":true,
     "resources":true,
-    "themes":true,
+    //"themes":true,
     ".hugo_build.lock": true,
-    "layouts": true,
+    //"layouts": true,
   },
   "search.exclude": {
     "public": true,

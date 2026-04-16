@@ -2,48 +2,48 @@ baseURL = 'https://easyatm.github.io/'
 languageCode = 'zh-cn'
 title = 'easyatm'
 theme = 'hugo-theme-stack'
-hasCJKLanguage = true  # 开启中日韩语言支持
+hasCJKLanguage = true                  # 开启中日韩语言支持
 
 [params]
-    mainSections = ["post"]
-    
-    [params.sidebar]
-        avatar = "https://github.com/easyatm.png"
-        title = "easyatm"
-        subtitle = "生命不息 折腾不止"
+mainSections = ["post"]
+
+[params.sidebar]
+avatar = "https://github.com/easyatm.png"
+title = "easyatm"
+subtitle = "生命不息 折腾不止"
 
 
 [[menu.main]]
-    identifier = "home"
-    name = "首页"
-    url = "/"
-    weight = 1
-    # [menu.main.params]
-    #     icon = "home"
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 1
+# [menu.main.params]
+#     icon = "home"
 
 [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 2
-    # [menu.main.params] 
-    #     icon = "archive"
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 2
+# [menu.main.params] 
+#     icon = "archive"
 
 [[menu.main]]
-    identifier = "search"
-    name = "搜索"
-    url = "/search/"
-    weight = 3
-    [menu.main.params] 
-        rel = "search"
-         #icon = "search"
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 3
+[menu.main.params]
+rel = "search"
+#icon = "search"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [outputs]
-    home = ["HTML", "RSS", "JSON"]
-    page = ["HTML"]
-    section = ["HTML", "RSS"]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML"]
+section = ["HTML", "RSS"]
