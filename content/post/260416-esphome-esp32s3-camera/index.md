@@ -43,7 +43,6 @@ Bootstrap 刷入后，设备会出现在 ESPHome Builder 中，显示 **DISCOVER
 
 > ℹ️ **注意**：新版 ESPHome 已将 `Adopt` 按钮改为 **`TAKE CONTROL`**，点击后输入设备名称确认即可，ESPHome 会自动生成基础配置。
 
-![ESPHome Builder 截图](screenshot.png)
 
 ---
 
