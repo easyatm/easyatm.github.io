@@ -1,6 +1,6 @@
 ---
 title: "ESP32-S3 OV2640 ESPHome 摄像头配置指南"
-date: 2026-03-19
+date: 2026-04-16
 draft: false
 ---
 
