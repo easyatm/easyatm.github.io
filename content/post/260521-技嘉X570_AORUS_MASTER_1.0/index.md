@@ -14,7 +14,10 @@ draft: false
 
 ![alt text](后方设备接口彩色.png)
 
-| ![后方设备接口](后方设备接口.png){width=400} | ![后方设备接口彩色](后方设备接口彩色.png){width=400} |
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="后方设备接口.png" alt="后方设备接口" width="300"/>
+  <img src="后方设备接口彩色.png" alt="后方设备接口彩色" width="300"/>
+</div>
 
 ## USB控制器
 
