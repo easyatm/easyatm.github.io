@@ -8,11 +8,11 @@ draft: false
 
 [中文手册 PDF](mb_manual_x570-aorus-master_1002_sc.pdf)
 
-## 相关图片x
+## 相关图片
 
 <div>
-    <img src="主板图片.png" height="240">
-    <img src="主板图片2.png" height="240">
+    <img src="主板图片.png" width="240">
+    <img src="主板图片2.png" width="240">
 </div>
 
 ## USB控制器
