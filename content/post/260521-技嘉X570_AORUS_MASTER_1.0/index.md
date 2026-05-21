@@ -4,22 +4,23 @@ date: 2026-05-21
 draft: false
 ---
 
-[手册 PDF](mb_manual_x570-aorus-master_1002_sc.pdf)
+## 相关链接
+
+[中文手册 PDF](mb_manual_x570-aorus-master_1002_sc.pdf)
 
 ## 相关图片
 
-<img src="主板图片.png" width="160">
-
-![alt text](后方设备接口.png)
-
-![alt text](后方设备接口彩色.png)
-
-<div style="display: flex; gap: 10px; align-items: center;">
-  <img src="后方设备接口.png" alt="后方设备接口" width="300"/>
-  <img src="后方设备接口彩色.png" alt="后方设备接口彩色" width="300"/>
+<div>
+<img src="主板图片.png" height="160">
+<img src="主板图片2.png" height="160">
 </div>
 
 ## USB控制器
+
+<div>
+    <img src="后方设备接口.png"  width="300"/>
+    <img src="后方设备接口彩色.png" width="300"/>
+</div>
 
 - `PCI bus(总线) 10, device(设备) 0, function(功能) 3`
   - 后方接口 `(d*4)` : USB 2.0/1.1规格
@@ -31,3 +32,5 @@ draft: false
   - 后方接口 `(f)` : USB 3.1 Gen 1规格，并可兼容于USB 2.0规格,Q-Flash Plus
   - 后方接口 `(h*2)` : USB 3.1 Gen 2/Gen 1规格
 
+- `PCI bus 10, device 0, function 1`
+  - 主板内置的: `ITE Device(8595)` - (可能是RGB灯带相关的)
