@@ -17,7 +17,8 @@ draft: false
 
 ## USB控制器
 
-<div>
+
+<div style="padding-left: 40px;">
     <img src="后方设备接口.png"  width="300"/>
     <img src="后方设备接口彩色.png" width="300"/>
 </div>
