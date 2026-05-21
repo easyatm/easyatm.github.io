@@ -6,6 +6,6 @@ draft: false
 
 ## ESP32-S3 N16R8 CAM开发板
 
-<img src="image.png" width="300">
+<img src="ESP32-SE-N16R8-CAM.png" width="300">
 
-![alt text](image-1.png)
+<img src="ESP32-SE-N16R8-CAM-PIN.png" width="300">
