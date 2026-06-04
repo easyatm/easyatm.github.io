@@ -13,5 +13,6 @@
     "resources":true,
     "themes":true,
     ".hugo_build.lock": true
-  }
+},
+"chat.disableAIFeatures": false
 }
